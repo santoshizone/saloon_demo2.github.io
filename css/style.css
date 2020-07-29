@@ -1,0 +1,433 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	overflow-x: hidden;
+}
+
+
+/*---------------------carousel----------*/
+
+
+#demo{
+	margin-top: -110px;
+	z-index: -1;
+}
+
+
+.carou_h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.carou_h3{
+	color: white;
+	font-weight: 100;
+}
+/*-------------navbar----------------*/
+
+.navbar{
+	z-index: 1;
+}
+
+.form_btn{
+	color: orange;
+	text-decoration: underline;
+	border: none;
+	background-color:white;
+	font-size: 18px;
+
+}
+
+.form_btn:hover{
+	text-decoration: none;
+}
+
+button .tog1{
+	background-color: orange;
+	color: black;
+}
+
+
+
+
+
+#Navbar1 ul li a{
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#Navbar1 ul{
+	margin-right: 200px;
+}
+
+#Navbar1 ul li{
+	padding-left: 15px;
+	
+	margin-left: 5px;
+}
+
+
+/*--------------------section2----------*/
+
+
+ .sec2_h1{
+ 	font-size:40px;
+ 	color: black;
+ 	font-weight: bold;
+ 	margin-top: 100px;
+ 	margin-left: 50px;
+ }
+
+
+ .sec2_h5{
+ 	color: grey;
+ 	font-size:40px;
+ 	margin-left: 50px;
+ }
+
+ .sec2_p1{
+ 	font-size: 16px;
+ 	color: grey;
+ 	line-height: 2;
+ 	margin-left: 50px;
+ }
+
+ .section2 fieldset{
+ 	
+ 	width: 350px;
+ 	height: 500px;
+ 	
+ 	margin-top: 90px;
+ 	
+}
+
+
+
+
+ 
+.section2 legend{
+	border: 5px solid lightgrey;
+	position: relative;
+	padding-bottom: 50px;
+
+}
+
+.section2 legend img{
+	position: absolute;
+	top: -4%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+img{
+	padding-top:20px;
+	font-size: 40px;
+}
+
+ .section2 input{
+ 	width: 200px;
+ 	height: 50px;
+ 	background-color: lightgrey;
+ 	color: grey;
+ 	
+ 	margin-top: 20px;
+
+
+ }
+
+ .input_btn{
+ 	color:orange;
+ }
+
+			/*---------------section3-------*/
+
+.sec3_col1{
+	opacity: 0;
+}
+.sec3_col1 .animated{
+	opacity: 1;
+}
+ .section3{
+ 	background-color: #f6f6f6;
+ 	height: auto;
+ }
+
+ .sec3_h1{
+ 	font-size:30px;
+ }
+
+ .sec3_p1{
+ 	font-size: 16px;
+ 	color: grey;
+ 	line-height: 2;
+ 	
+
+ }
+ /*--------------------section4---------------------*/
+
+ .sec4_row{
+ 	padding-top: 100px;
+
+ }
+
+ .sec4_p1{
+ 	font-size: 17px;
+ 	color: grey;
+ 	line-height: 2;
+ 	
+
+ }
+
+ .text{
+ 	position: absolute;
+ 	top: 80%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	color:white;
+ 	font-size:25px;
+ }
+
+ .row2{
+ 	
+ 	display: flex;
+ 	margin: auto;
+ }
+
+
+ /*---section5--*/
+
+
+
+ .section5 .row1{
+ 	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/t2.jpg) no-repeat;
+ 	background-size: cover;
+ 	width:550px;
+ 	height:200px;
+ 	position:relative;
+ 	margin-left:-10px;
+
+				
+
+ }
+
+ /*-------------------------------section6---------*/
+
+.section6{
+ 	background-color: #f6f6f6;
+ }
+
+ .sec6_h1{
+ 	padding-top: 80px;
+ 	font-size: 50px;
+ 	padding-left: 60px;
+ }
+
+ .sec6_p1{
+ 	font-size: 17px;
+ 	color: grey;
+ 	line-height: 2;
+ 	padding-left: 60px;
+ 	
+
+
+ }
+
+ .sec6_row2{
+ 	display: flex;
+ 	margin: auto;
+ 
+ 	padding-left:70px;
+ 	
+ 
+ }
+
+ .box1{
+ 	width:200px;
+ 	height:200px;
+ 	
+ 	margin: 5px;
+ 	background-color: white;
+
+ 	font-size: 20px;
+ 	
+
+ }
+
+ /*-------------------section7----------------*/
+
+
+ .sec7_h1{
+ 	font-size: 50px;
+ 	font-weight: bold;
+ 	padding-top: 60px;
+ }
+
+ .sec7_row{
+ 	margin-left:100px;
+ 	display: flex;
+ 	padding-top: 60px;
+ 	 }
+
+
+ .sec7_div1{
+ 	width: 265px;
+ 	height: 360px;
+ 	border: 1px solid grey;
+ 	margin: auto; 
+ 	border-radius: 5px;
+
+
+ }
+
+ .sec7_div1 .icon_box{
+	width: 220px;
+	height: 320px;
+	background-color: black;
+	position: absolute;
+	
+	top: 150%;
+	opacity: .8;
+	padding-top: 100px;
+	color: white;
+
+    
+	
+	}
+
+
+.sec7_div1{
+	position: relative;
+overflow: hidden;
+
+}
+
+
+
+.sec7_div1:hover .icon_box{
+	top:5%;
+	left: 8%;
+	transition: all .5s ease-out 0s;
+	transform: rotate3d(-1, 1,0, 360deg);
+
+
+	 }
+
+/*--------------------------------section8-------------*/
+ .section8{
+ 	background-color: orange;
+ 	height:auto;
+ 	padding: 20px;
+ }
+
+ .sec8_h1{
+ 	color: white;
+ 	padding-top: 50px;
+ 	padding-left:30px;
+ }
+
+
+ .section8 .btn1{
+ 	width: 200px;
+ 	height: 50px;
+ 	background-color: white;
+ 	margin-top: 50px;
+ 
+ 	color: orange;
+ 	font-weight: bold;
+ }
+
+ /*---------------------------------footer---------------------*/
+
+ .foot_h1{
+ 	padding-top: 100px;
+ 	color: white;
+ 	font-size:30px;
+ }
+
+ .footer{
+ 	background-color: black;
+ }
+
+ .footer .row{
+ 	color: grey;
+ 	font-size:20px;
+ }
+
+ .icon1{
+ 	width: 40px;
+ 	height: 40px;
+ 	border: 1px solid grey;
+ 	border-radius: 50%;
+ 	padding-top: 10px;
+ 	margin: 10px;
+ }
+
+
+ #myBtn2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color:orange; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn2:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+
+/*----------------media--------------*/
+
+ @media screen and (max-width:800px){
+  .navbar{background-color:black;
+ 	}
+ 	#Navbar1 ul li a{color:white;}
+
+ 	#Navbar1 .active{
+ 		color: orange;
+ 	}
+
+ 	.section8 .btn1{
+ 		margin-left: 70px;
+ 	}
+
+ 	.sec2_h1{
+ 		font-size: 19px;
+ 	}
+
+ 	.sec2_h5{
+ 		font-size: 27px;
+ 	}
+
+ 	.section5 .row1{
+ 		width: 363px;
+ 	}
+ 	.sec6_h1{
+ 		font-size:38px;
+ 	}
+
+ 	
+ }
+
+
+ 
